@@ -7,4 +7,112 @@
  Template:       spine
  Version:        0.0.1
 */
+
+/***********************************
+	Spine adjustments
+***********************************/
+#spine .spine-actions,
+#spine .spine-footer {
+	display: none;
+}
+
+/***********************************
+	HTML adjustments
+***********************************/
+body {
+	font-family: Rubik, sans-serif;
+	font-size: 100%;
+	color: #585858;
+	background: #fff;
+}
+
+/***********************************
+	Typograhy adjustments
+***********************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+header {
+	color: #2a7862;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 3rem;
+	padding-top: 2em;
+	padding-bottom: 1.1em;
+}
+
+p,
+ol,
+ul {
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+a {
+	color: #005373;
+}
+
+a:hover {
+	color: #1097cb;
+}
+
+a.more {
+	display: block;
+	border: 4px solid #9d9d9d;
+	border-radius: 50%;
+	padding: 0;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: 600;
+}
+
+/***********************************
+	#005373 section
+***********************************/
+.blue {
+	background: #005373;
+	color: #fff;
+}
+
+.blue h2 {
+	font-size: 1.4rem;
+	font-weight: 300;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	display: block;
+	padding-bottom: .6em;
+}
+
+/***********************************
+	Flex section
+***********************************/
+.flex {
+	margin-top: 2em;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.flex .flex-inner {
+	width: 25%;
+	font-size: 1.5rem;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.flex .flex-inner.two,
+.flex .flex-inner.four {
+	font-size: 4rem;
+}
 /*# sourceMappingURL=style.css.map */
