@@ -6,11 +6,24 @@
 	display: none;
 }
 
+#spine #wsu-signature {
+	background-image: none;
+}
+
+#spine .spine-sitenav a:hover,
+#spine .spine-sitenav li.dogeared > a {
+	color: #005373;
+}
+
+#spine nav ul li {
+	font-size: 1rem;
+}
+
 /***********************************
 	HTML adjustments
 ***********************************/
 body {
-	font-family: Rubik, sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 100%;
 	color: #585858;
 	background: #fff;
@@ -25,7 +38,7 @@ h3,
 h4,
 h5,
 header {
-	color: #2a7862;
+	color: #cebb57;
 }
 
 h1 {
@@ -33,6 +46,15 @@ h1 {
 	font-size: 3rem;
 	padding-top: 2em;
 	padding-bottom: 1.1em;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+	padding-bottom: 1.3em;
 }
 
 p,
@@ -47,7 +69,7 @@ a {
 }
 
 a:hover {
-	color: #1097cb;
+	color: #cebb57;
 }
 
 a.more {
@@ -60,6 +82,11 @@ a.more {
 	line-height: 50px;
 	text-align: center;
 	font-weight: 600;
+}
+
+strong,
+b {
+	font-weight: 900;
 }
 
 /***********************************
@@ -78,20 +105,31 @@ a.more {
 	width: 100%;
 	display: block;
 	padding-bottom: .6em;
+	padding-top: 2em;
+	margin-bottom: 2em;
+}
+
+.blue a {
+	color: #fff;
+}
+
+.blue a:hover {
+	color: #9d9d9d;
 }
 
 /***********************************
 	Flex section
 ***********************************/
 .flex {
-	margin-top: 2em;
+	margin: 2em auto;
 	display: flex;
 	flex-direction: row;
 }
 
 .flex .flex-inner {
 	width: 25%;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
+	font-weight: 700;
 	line-height: 1.4;
 	text-align: center;
 }
@@ -99,4 +137,34 @@ a.more {
 .flex .flex-inner.two,
 .flex .flex-inner.four {
 	font-size: 4rem;
+	line-height: 1;
+}
+
+.flex.paragraph {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
+}
+
+.flex.paragraph .flex-inner.extend {
+	font-size: 1.1rem;
+	font-weight: 300;
+	width: 75%;
+	text-align: left;
+}
+
+.flex.paragraph .flex-inner {
+	width: 25%;
+}
+
+.flex.paragraph a.more {
+	font-size: 1rem;
+}
+
+.cert-container {
+	width: 55%;
+	float: right;
+	padding-top: 60px;
+	padding-bottom: 100px;
 }
