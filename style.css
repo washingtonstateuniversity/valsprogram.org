@@ -8,16 +8,41 @@
  Version:        0.0.1
 */
 
+@media only screen and (max-width: 989px) {
+
+	#binder #spine header {
+		height: 70px;
+	}
+
+	#spine.cropped.skimmed #wsu-signature,
+	.print #wsu-signature,
+	.spine-mobile #wsu-signature {
+		margin: 0 !important;
+		background-image: url(./assets/mobile-logo.svg) !important;
+		background-size: 200px;
+		height: 70px;
+	}
+}
+
 /***********************************
 	Spine adjustments
 ***********************************/
+#spine,
+#glue {
+	width: 250px;
+	background: #fff;
+}
+
 #spine .spine-actions,
 #spine .spine-footer {
 	display: none;
 }
 
 #spine #wsu-signature {
-	background-image: none;
+	background-image: url(./assets/logo.svg);
+	background-size: 180px;
+	height: 180px;
+	margin: 50px 0;
 }
 
 #spine .spine-sitenav a:hover,
@@ -37,6 +62,10 @@ body {
 	font-size: 100%;
 	color: #585858;
 	background: #fff;
+}
+
+main {
+	margin-left: 250px;
 }
 
 /***********************************
