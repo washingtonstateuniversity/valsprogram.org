@@ -74,18 +74,48 @@ p,
 ol,
 ul {
 	font-weight: 300;
-	line-height: 1.5;
+	line-height: 1.6;
+	font-size: 17px;
 }
 
-a {
+ol li,
+ul.counter li {
+	list-style: none;
+}
+
+ol li:before,
+ul.counter li:before {
+	border: 2px solid #005373;
+	border-radius: 50px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	padding: .2em;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 1;
+	background: #005373;
+	color: #fff;
+	content: counter(mycounter);
+	counter-increment: mycounter;
+}
+
+ul.counter.one {
+	counter-reset: mycounter;
+}
+
+main a {
 	color: #005373;
+	border-bottom: 1px solid #005373;
 }
 
-a:hover {
+main a:hover {
 	color: #cebb57;
+	border-color: #cebb57;
 }
 
 a.more {
+	color: #005373;
 	display: block;
 	border: 4px solid #005373;
 	border-radius: 50%;
