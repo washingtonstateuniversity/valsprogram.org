@@ -51,7 +51,7 @@
 }
 
 #spine nav ul li {
-	font-size: 1rem;
+	font-size: .9rem;
 }
 
 /***********************************
@@ -60,7 +60,7 @@
 body {
 	font-family: Roboto, sans-serif;
 	font-size: 100%;
-	color: #585858;
+	color: #656161;
 	background: #fff;
 }
 
@@ -113,7 +113,7 @@ a:hover {
 
 a.more {
 	display: block;
-	border: 4px solid #9d9d9d;
+	border: 4px solid #005373;
 	border-radius: 50%;
 	padding: 0;
 	width: 50px;
@@ -123,9 +123,20 @@ a.more {
 	font-weight: 600;
 }
 
+a.more:hover {
+	background: #cebb57;
+	border-color: #cebb57;
+	color: #005373;
+}
+
 strong,
 b {
 	font-weight: 900;
+}
+
+hr {
+	background-color: rgba(0, 0, 0, .1);
+	border: none;
 }
 
 /***********************************
@@ -150,10 +161,13 @@ b {
 
 .blue a {
 	color: #fff;
+	border-color: #fff;
 }
 
 .blue a:hover {
-	color: #9d9d9d;
+	background: #cebb57;
+	border-color: #cebb57;
+	color: #005373;
 }
 
 /***********************************
@@ -206,10 +220,30 @@ b {
 	font-size: 1rem;
 }
 
-.cert-container {
+/***********************************
+	Asset section
+***********************************/
+
+.container {
 	width: 55%;
-	float: right;
+}
+
+.cert {
 	padding-top: 60px;
 	padding-bottom: 100px;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.what-is {
+	background-repeat: no-repeat;
+	background-position: 90%;
+	background-size: contain;
 }
 /*# sourceMappingURL=style.css.map */
