@@ -8,22 +8,6 @@
  Version:        0.0.3
 */
 
-@media only screen and (max-width: 989px) {
-
-	#binder #spine header {
-		height: 70px;
-	}
-
-	#spine.cropped.skimmed #wsu-signature,
-	.print #wsu-signature,
-	.spine-mobile #wsu-signature {
-		margin: 0 !important;
-		background-image: url(./assets/mobile-logo.svg) !important;
-		background-size: 200px;
-		height: 70px;
-	}
-}
-
 /***********************************
 	Spine adjustments
 ***********************************/
@@ -41,7 +25,7 @@
 #spine #wsu-signature {
 	background-image: url(./assets/logo.svg);
 	background-size: 180px;
-	height: 180px;
+	height: 192px;
 	margin: 50px 0;
 }
 
@@ -107,6 +91,7 @@ ul {
 ol li,
 ul.counter li {
 	list-style: none;
+	margin-bottom: .3em;
 }
 
 ol li:before,
@@ -119,7 +104,7 @@ ul.counter li:before {
 	padding: .2em;
 	margin-right: 5px;
 	text-align: center;
-	line-height: 1;
+	line-height: 1.2;
 	background: #005373;
 	color: #fff;
 	content: counter(mycounter);
@@ -275,5 +260,27 @@ hr {
 	background-repeat: no-repeat;
 	background-position: 90%;
 	background-size: contain;
+}
+
+/***********************************
+	Asset section
+***********************************/
+
+.home-foot-img {
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 989px) {
+
+	#binder.fluid #spine header {
+		height: 70px;
+	}
+
+	#spine #wsu-signature {
+		margin: 0;
+		background-image: url(./assets/mobile-logo.svg);
+		background-size: 200px;
+		height: 70px;
+	}
 }
 /*# sourceMappingURL=style.css.map */
