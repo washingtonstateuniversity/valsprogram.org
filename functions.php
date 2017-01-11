@@ -5,10 +5,10 @@
  * the provided actions and filters.
  */
 
-	add_action( 'wp_enqueue_scripts', 'vals_enqueue_scripts' );
-	/**
-	* Enqueue custom scripting in child theme.
-	*/
+add_action( 'wp_enqueue_scripts', 'vals_enqueue_scripts' );
+/**
+ * Enqueue custom scripting in child theme.
+ */
 function vals_enqueue_scripts() {
 	wp_enqueue_script( 'vals-custom', get_stylesheet_directory_uri() . '/js/fontfamily.js', array( 'jquery' ), spine_get_script_version(), true );
 
