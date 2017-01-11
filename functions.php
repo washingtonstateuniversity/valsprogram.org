@@ -13,3 +13,19 @@ function vals_enqueue_scripts() {
 	wp_enqueue_script( 'vals-custom', get_stylesheet_directory_uri() . '/js/fontfamily.js', array( 'jquery' ), spine_get_script_version(), true );
 
 }
+
+add_filter( 'spine_get_campus_home_url', 'vals_logo_link_url' );
+/**
+ * Filter the Spine signature URL.
+ */
+function vals_logo_link_url() {
+	return 'https://valsprogram.org/';
+}
+
+add_filter( 'spine_get_campus_data', 'vals_logo_link_text' );
+/**
+ * Filter the Spine signature link text.
+ */
+function vals_logo_link_text() {
+	return 'Veterinary Assessment of Laparoscopic Skills';
+}
