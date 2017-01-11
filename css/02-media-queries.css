@@ -1,3 +1,49 @@
+@media only screen and (max-width: 415px) {
+
+	.home-foot-img,
+	.section-wrapper-has-background.what-is {
+		background-image: none;
+		background-size: 0;
+	}
+
+	.what-is .container {
+		width: 100%;
+	}
+
+	.flex {
+		display: block;
+	}
+
+	.flex .flex-inner {
+		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	.flex.paragraph .flex-inner.extend {
+		width: 100%;
+	}
+
+	.blue h2 {
+		text-align: center;
+	}
+
+	.home-foot-img {
+		background-color: #005373;
+		color: #fff;
+	}
+
+	.home-foot-img a {
+		color: #fff;
+		border-color: #fff;
+	}
+
+	.home-foot-img a:hover {
+		background: #cebb57;
+		border-color: #cebb57;
+		color: #005373;
+	}
+}
+
 @media only screen and (max-width: 989px) {
 
 	#binder.fluid #spine header {
@@ -9,5 +55,20 @@
 		background-image: url(./assets/mobile-logo.svg);
 		background-size: 200px;
 		height: 70px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.blue .flex .flex-inner {
+		font-size: 1.6rem;
+	}
+
+	.flex.paragraph {
+		width: 100%;
+	}
+
+	.home-foot-img .container {
+		width: 100%;
 	}
 }

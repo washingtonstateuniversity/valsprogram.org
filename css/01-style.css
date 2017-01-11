@@ -155,8 +155,7 @@ hr {
 .blue h2 {
 	font-size: 1.4rem;
 	font-weight: 300;
-	color: #fff;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #cebb57;
 	width: 100%;
 	display: block;
 	padding-bottom: .6em;
@@ -196,6 +195,7 @@ hr {
 .flex .flex-inner.four {
 	font-size: 4rem;
 	line-height: 1;
+	color: #cebb57;
 }
 
 .flex.paragraph {
