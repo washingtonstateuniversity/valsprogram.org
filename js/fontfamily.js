@@ -1,5 +1,5 @@
 WebFontConfig = {
-  google: { families: [ 'Roboto|300,300i,400,400i,700,700i,900,900i' ] }
+  google: { families: [ 'Roboto:300,300i,400,400i,700,700i,900,900i' ] }
 };
 (function() {
   var wf = document.createElement('script');
