@@ -165,8 +165,7 @@ hr {
 .blue h2 {
 	font-size: 1.4rem;
 	font-weight: 300;
-	color: #fff;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #cebb57;
 	width: 100%;
 	display: block;
 	padding-bottom: .6em;
@@ -211,6 +210,7 @@ hr {
 .flex .flex-inner.four {
 	font-size: 4rem;
 	line-height: 1;
+	color: #cebb57;
 }
 
 .flex.paragraph {
@@ -297,6 +297,22 @@ hr {
 
 	.blue h2 {
 		text-align: center;
+	}
+
+	.home-foot-img {
+		background-color: #005373;
+		color: #fff;
+	}
+
+	.home-foot-img a {
+		color: #fff;
+		border-color: #fff;
+	}
+
+	.home-foot-img a:hover {
+		background: #cebb57;
+		border-color: #cebb57;
+		color: #005373;
 	}
 }
 
