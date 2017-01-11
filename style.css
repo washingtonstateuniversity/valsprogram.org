@@ -8,22 +8,6 @@
  Version:        0.0.3
 */
 
-@media only screen and (max-width: 989px) {
-
-	#binder #spine header {
-		height: 70px;
-	}
-
-	#spine.cropped.skimmed #wsu-signature,
-	.print #wsu-signature,
-	.spine-mobile #wsu-signature {
-		margin: 0 !important;
-		background-image: url(./assets/mobile-logo.svg) !important;
-		background-size: 200px;
-		height: 70px;
-	}
-}
-
 /***********************************
 	Spine adjustments
 ***********************************/
@@ -284,5 +268,19 @@ hr {
 
 .home-foot-img {
 	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 989px) {
+
+	#binder.fluid #spine header {
+		height: 70px;
+	}
+
+	#spine #wsu-signature {
+		margin: 0;
+		background-image: url(./assets/mobile-logo.svg);
+		background-size: 200px;
+		height: 70px;
+	}
 }
 /*# sourceMappingURL=style.css.map */

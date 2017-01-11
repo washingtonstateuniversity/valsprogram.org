@@ -1,0 +1,13 @@
+@media only screen and (max-width: 989px) {
+
+	#binder.fluid #spine header {
+		height: 70px;
+	}
+
+	#spine #wsu-signature {
+		margin: 0;
+		background-image: url(./assets/mobile-logo.svg);
+		background-size: 200px;
+		height: 70px;
+	}
+}
