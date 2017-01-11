@@ -1,3 +1,33 @@
+@media only screen and (max-width: 415px) {
+
+	.home-foot-img,
+	.section-wrapper-has-background.what-is {
+		background-image: none;
+		background-size: 0;
+	}
+
+	.what-is .container {
+		width: 100%;
+	}
+
+	.flex {
+		display: block;
+	}
+
+	.flex .flex-inner {
+		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	.flex.paragraph .flex-inner.extend {
+		width: 100%;
+	}
+
+	.blue h2 {
+		text-align: center;
+	}
+}
+
 @media only screen and (max-width: 989px) {
 
 	#binder.fluid #spine header {
@@ -9,5 +39,20 @@
 		background-image: url(./assets/mobile-logo.svg);
 		background-size: 200px;
 		height: 70px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.blue .flex .flex-inner {
+		font-size: 1.6rem;
+	}
+
+	.flex.paragraph {
+		width: 100%;
+	}
+
+	.home-foot-img .container {
+		width: 100%;
 	}
 }
