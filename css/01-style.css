@@ -19,13 +19,22 @@
 	margin: 50px 0;
 }
 
-#spine .spine-sitenav a:hover,
 #spine .spine-sitenav li.dogeared > a {
 	color: #005373;
 }
 
+#spine .spine-sitenav a:hover {
+	color: #cebb57;
+}
+
 #spine nav ul li {
 	font-size: .9rem;
+}
+
+#spine .spine-sitenav > ul > li.active:first-child > a,
+#spine .spine-sitenav > ul > li:first-child > a:hover {
+	padding-left: 0;
+	background-image: none;
 }
 
 /***********************************
@@ -75,7 +84,7 @@ ol,
 ul {
 	font-weight: 300;
 	line-height: 1.6;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 ol li,
