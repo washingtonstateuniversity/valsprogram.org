@@ -6,6 +6,7 @@
 		background-size: 0;
 	}
 
+	.home-foot-img .container,
 	.what-is .container {
 		width: 100%;
 	}
@@ -30,17 +31,6 @@
 	.home-foot-img {
 		background-color: #005373;
 		color: #fff;
-	}
-
-	.home-foot-img a {
-		color: #fff;
-		border-color: #fff;
-	}
-
-	.home-foot-img a:hover {
-		background: #cebb57;
-		border-color: #cebb57;
-		color: #005373;
 	}
 }
 
@@ -68,7 +58,21 @@
 		width: 100%;
 	}
 
+	.home-foot-img {
+		background-color: #005373;
+		color: #fff;
+	}
+
+	.home-foot-img a {
+		color: #fff;
+		border-color: #fff;
+	}
+}
+
+@media (min-width: 416px) and (max-width: 1024px) {
+
 	.home-foot-img .container {
-		width: 100%;
+		width: 50%;
+		float: left;
 	}
 }
